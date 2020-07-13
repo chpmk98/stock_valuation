@@ -1,7 +1,7 @@
 # stock_valuation
 This Python 3 script automatically pulls historic stock prices from Yahoo! Finance and evaluates the performance of various stocks against the market and an existing portfolio to help make more informed decisions in stock selection. Written by Alvin Tan in March 2020 and modified for GitHub in July 2020.
 
-To conduct the analysis, download the repository and run stockBoi.py. The program uses the following libraries: csv, time, numpy, pandas, scipy, statsmodels, pandas_datareader, datetime, matplotlib, and xlrd. The program generates two output CSV files: fiveYearAnalysis.csv and tenYearAnalysis.csv. The two file names are prefixed by the machine time at time of output generation to allow for multiple runs without overriding previous output. An explaination of the contents of the output files is included below.
+To conduct the analysis, download the repository and run stockBoi.py. The program uses the following libraries: csv, time, numpy, pandas, scipy, statsmodels, pandas_datareader, datetime, matplotlib, and xlrd. The program generates two output CSV files: fiveYearAnalysis.csv and tenYearAnalysis.csv. The two file names are prefixed by the machine time at time of output generation to allow for multiple runs without overriding previous output. Sample output files are included in this repository, and an explaination of the contents of the output files is included below.
 
 To personalize the analysis, open stockBoi.py in a text editor and modify the pBoi dictionary to describe your current portfolio and the spicyBois list to contain the stocks that you want to consider. Then save and run stockBoi.py. You can also update the FamaFrench.xlsx file to contain updated data for Fama French analysis by downloading the Fama/French 5 Factors (2x3) [Daily] and Momentum Factor (Mom) [Daily] files from https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html and update the xlsx accordingly. At the time of writing, this data goes from July 1963 to May 2020.
 
@@ -10,7 +10,7 @@ To personalize the analysis, open stockBoi.py in a text editor and modify the pB
 ## Explaination of Output
 The fiveYearAnalysis and tenYearAnalysis files contain the same analysis across either a five-year time period or a ten-year time period. The five-year analysis gives more recent performance of the stocks while the ten-year analysis provides more data to work with.
 
-In the analyses, we consider the performance of the Market, your current Portfolio, and the other stocks that you are interested in. For each of these, we calculate the following:
+In the analyses, we consider the performance of the Market, your current Portfolio, and the other stocks that you are interested in (generally referred to as "assets" in the subsequent text). For each of these, we calculate the following:
 
 *Arithmetic Average Return* is the expected yearly percent return. Higher values are better.
 
