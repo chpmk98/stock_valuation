@@ -7,7 +7,7 @@ To personalize the analysis, open stockBoi.py in a text editor and modify the pB
 
 **Disclaimer:** Historical performance does not necessarily predict future performance. There may be current events that would cause a certain asset to perform better than this analysis would predict, or something may happen that causes a promising asset to perform very poorly. As such, this analysis should be supplemented by additional research, and investments should be made only after careful consideration. I am not responsible if y'all lose money.
 
-I use Robinhood as my broker. If you use my referral link to sign up, you start off with one free (arbitrarily selected) stock: https://join.robinhood.com/alvint255.
+I use Robinhood as my broker. They provide commission-free transactions and have a reasonably straightforward interface. If you use my referral link to sign up, you start off with one free (randomly selected) stock: https://join.robinhood.com/alvint255.
 
 ## Explaination of Output
 The fiveYearAnalysis and tenYearAnalysis files contain the same analysis across either a five-year time period or a ten-year time period. The five-year analysis gives more recent performance of the stocks while the ten-year analysis provides more data to work with.
